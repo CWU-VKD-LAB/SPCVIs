@@ -1,0 +1,88 @@
+  OpenGL_on_a_Windows_Form.Form1.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly OpenGL_on_a_Windows_Form, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class OpenGLForm.COpenGL3: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.NativeWindow
+    Void .ctor(System.Windows.Forms.Form, Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    Double worldHeight : Public
+    Double worldWidth : Public
+    Int32 clickedDimension : Public
+    Double rectx1 : Public
+    Double rectx2 : Public
+    Double recty1 : Public
+    Double recty2 : Public
+    Double rectOrx1 : Public
+    Double rectOrx2 : Public
+    Double rectOry1 : Public
+    Double rectOry2 : Public
+    Double worldMouseX : Public
+    Double worldMouseY : Public
+    Boolean drawingDragged : Public
+    Boolean mouseButtonDown : Public
+    Boolean drawingAndRectEnabled : Public
+    Boolean drawingOrRectEnabled : Public
+    Boolean drawingOrRectComplete : Public
+    Int32 graphType : Public
+    Int32 originalWH : Public
+    Int32 originalWW : Public
+    Int32 cpPosx : Public
+    Int32 cpPosy : Public
+    Int32 reverseDataAxis : Public
+    Int32 swapAxes : Public
+    Int32 nonOrtho : Public
+    Single nonOrthoXAngle : Public
+    Single nonOrthoXDiff : Public
+    Single nonOrthoYAngle : Public
+    Single nonOrthoYDiff : Public
+    Int32 nonLinearScaleX : Public
+    Int32 nonLinearScaleY : Public
+    Single nonLinearLesserThan : Public
+    Single nonLinearGreaterThan : Public
+  Methods:
+    resetDrawingArea(): PrivateScope, Public, HideBySig
+    setClassColor(Single, Single, Single, Int32): PrivateScope, Public, HideBySig
+    getClassSize(): PrivateScope, Public, HideBySig
+    Render4(): PrivateScope, Public, HideBySig
+    SwapOpenGLBuffers(): PrivateScope, Public, HideBySig
+    clearAllGraphData(): PrivateScope, Public, HideBySig
+    setFileName(ClassData*): PrivateScope, Public, HideBySig
+    zoom(Int32): PrivateScope, Public, HideBySig
+    panHorizontal(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    panVertical(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    setMeanData(Int32): PrivateScope, Public, HideBySig
+    changeScaleX(Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    getNumberOfGraphs(): PrivateScope, Public, HideBySig
+    displayCoordinateLabels(): PrivateScope, Public, HideBySig
+    changeScaleY(Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    showHideLines(): PrivateScope, Public, HideBySig
+    nonOrthogonalX(): PrivateScope, Public, HideBySig
+    nonOrthogonalY(): PrivateScope, Public, HideBySig
+    swapCoordinates(): PrivateScope, Public, HideBySig
+    displayClassOnTop(Int32): PrivateScope, Public, HideBySig
+    showHideClass(Int32, Int32): PrivateScope, Public, HideBySig
+    drawRectArea(): PrivateScope, Public, HideBySig
+    clipAndData(): PrivateScope, Public, HideBySig
+    clipOrData(): PrivateScope, Public, HideBySig
+    displayHdData(): PrivateScope, Public, HideBySig
+    reduceOcclusion(): PrivateScope, Public, HideBySig
+    automateClassification(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class OpenGL_on_a_Windows_Form.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

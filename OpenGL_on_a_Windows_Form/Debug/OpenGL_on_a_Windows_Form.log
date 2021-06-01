@@ -1,0 +1,82 @@
+﻿  FileHandling.cpp
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\ClassData.h(261,29): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\ClassData.h(270,29): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\ClassData.h(287,10): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\FileHandling.cpp(53,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\FileHandling.cpp(61,21): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\FileHandling.cpp(110,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\FileHandling.cpp(112,21): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\FileHandling.cpp(131,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\FileHandling.cpp(132,21): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\FileHandling.cpp(162,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\FileHandling.cpp(164,21): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\FileHandling.cpp(180,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\FileHandling.cpp(181,21): warning C4018: '<': signed/unsigned mismatch
+  InteractiveSPC.cpp
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\ClassData.h(261,29): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\ClassData.h(270,29): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\ClassData.h(287,10): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\InteractiveSPC.cpp(26,22): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\InteractiveSPC.cpp(154,22): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\InteractiveSPC.cpp(160,22): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\InteractiveSPC.cpp(219,21): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\InteractiveSPC.cpp(235,21): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\InteractiveSPC.cpp(252,21): warning C4018: '<': signed/unsigned mismatch
+  OpenGL_on_a_Windows_Form.cpp
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\ClassData.h(261,29): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\ClassData.h(270,29): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\ClassData.h(287,10): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(713,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(722,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(737,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(761,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(771,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(773,21): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(786,21): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(788,26): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(804,21): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(823,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(969,19): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1004,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1011,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1003,25): warning C4101: 'sz': unreferenced local variable
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1115,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1157,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1163,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1194,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1199,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1214,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1234,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1305,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1325,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1348,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1351,21): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1365,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1373,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1447,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1451,21): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1468,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1470,21): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1495,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1522,20): warning C4018: '<=': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1524,21): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1526,22): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1547,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1550,21): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1552,22): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1569,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1572,21): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1574,22): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1662,24): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1664,23): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1676,22): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1678,21): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1691,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1693,25): warning C4018: '<=': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1721,20): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1723,21): warning C4018: '<': signed/unsigned mismatch
+D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form\OpenGL3.h(1720,20): warning C4101: 'tempCoordY': unreferenced local variable
+  Generating Code...
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+InteractiveSPC.obj : warning LNK4248: unresolved typeref token (0100001D) for 'GLUquadric'; image may not run
+  OpenGL_on_a_Windows_Form.vcxproj -> D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\Debug\OpenGL_on_a_Windows_Form.exe
