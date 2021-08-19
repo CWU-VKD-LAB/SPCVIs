@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2019\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="16.0">
+ <Targets>
+  <Target Name="D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\Release\OpenGL_on_a_Windows_Form.exe">
+   <Modules>
+    <Module Name="opengl_on_a_windows_form.exe">
+     <Namespaces>
+      <Namespace Name="OpenGL_on_a_Windows_Form">
+       <Types>
+        <Type Name="Form1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="OpenGL3" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2020-12-23 09:14:59Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">'Form1' contains field 'Form1.OpenGL3' that is of IDisposable type: 'COpenGL3'. Change the Dispose method on 'Form1' to call Dispose or Close on this field.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="OpenGLForm">
+       <Types>
+        <Type Name="COpenGL3" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Windows.Forms.Form,System.Int32,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2020-12-23 09:14:59Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form" File="OpenGL3.h" Line="71">'COpenGL3.COpenGL3(Form, int, int, int)' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;COpenGL3..ctor(Form, Int32, Int32, Int32)&#xD;&#xA;NativeWindow.CreateHandle(CreateParams):Void</Issue>
+            </Message>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2020-12-23 09:14:59Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form" File="OpenGL3.h" Line="71">'COpenGL3.COpenGL3(Form, int, int, int)' calls into 'NativeWindow.CreateHandle(CreateParams)' which has a LinkDemand. By making this call, 'NativeWindow.CreateHandle(CreateParams)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'COpenGL3.COpenGL3(Form, int, int, int)'&#xD;&#xA;   -&gt;'COpenGL3.COpenGL3(Form, int, int, int)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form" File="OpenGL3.h" Line="71">'COpenGL3.COpenGL3(Form, int, int, int)' calls into 'NativeWindow.Handle.get()' which has a LinkDemand. By making this call, 'NativeWindow.Handle.get()' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'COpenGL3.COpenGL3(Form, int, int, int)'&#xD;&#xA;   -&gt;'COpenGL3.COpenGL3(Form, int, int, int)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form" File="OpenGL3.h" Line="71">'COpenGL3.COpenGL3(Form, int, int, int)' calls into 'NativeWindow.NativeWindow()' which has a LinkDemand. By making this call, 'NativeWindow.NativeWindow()' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'COpenGL3.COpenGL3(Form, int, int, int)'&#xD;&#xA;   -&gt;'COpenGL3.COpenGL3(Form, int, int, int)'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#~COpenGL3()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2020-12-23 09:14:59Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form" File="OpenGL3.h" Line="351">'COpenGL3.~COpenGL3()' calls into 'NativeWindow.DestroyHandle()' which has a LinkDemand. By making this call, 'NativeWindow.DestroyHandle()' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'COpenGL3.~COpenGL3()'&#xD;&#xA;   -&gt;'COpenGL3.~COpenGL3()'&#xD;&#xA;   -&gt;'COpenGL3.Dispose(bool)'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2020-12-23 09:14:59Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError">'COpenGL3.Dispose(bool)' calls into 'NativeWindow.~NativeWindow()' which has a LinkDemand. By making this call, 'NativeWindow.~NativeWindow()' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'COpenGL3.Dispose(bool)'&#xD;&#xA;   -&gt;'COpenGL3.Dispose(bool)'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getWorldMouseX()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2020-12-23 09:14:59Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form" File="OpenGL3.h" Line="452">'COpenGL3.getWorldMouseX()' calls into 'NativeWindow.Handle.get()' which has a LinkDemand. By making this call, 'NativeWindow.Handle.get()' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'COpenGL3.getWorldMouseX()'&#xD;&#xA;   -&gt;'COpenGL3.getWorldMouseX()'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getWorldMouseY()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2020-12-23 09:14:59Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form" File="OpenGL3.h" Line="466">'COpenGL3.getWorldMouseY()' calls into 'NativeWindow.Handle.get()' which has a LinkDemand. By making this call, 'NativeWindow.Handle.get()' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'COpenGL3.getWorldMouseY()'&#xD;&#xA;   -&gt;'COpenGL3.getWorldMouseY()'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#resetDrawingArea()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2020-12-23 09:14:59Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form" File="OpenGL3.h" Line="152">'COpenGL3.resetDrawingArea()' calls into 'NativeWindow.Handle.get()' which has a LinkDemand. By making this call, 'NativeWindow.Handle.get()' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'COpenGL3.resetDrawingArea()'&#xD;&#xA;   -&gt;'COpenGL3.resetDrawingArea()'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WndProc(System.Windows.Forms.Message&amp;)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2020-12-23 09:14:59Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form" File="OpenGL3.h" Line="483">'COpenGL3.WndProc(ref Message)' calls into 'Message.Msg.get()' which has a LinkDemand. By making this call, 'Message.Msg.get()' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'COpenGL3.WndProc(ref Message)'&#xD;&#xA;   -&gt;'COpenGL3.WndProc(ref Message)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form" File="OpenGL3.h" Line="483">'COpenGL3.WndProc(ref Message)' calls into 'Message.WParam.get()' which has a LinkDemand. By making this call, 'Message.WParam.get()' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'COpenGL3.WndProc(ref Message)'&#xD;&#xA;   -&gt;'COpenGL3.WndProc(ref Message)'</Issue>
+             <Issue Certainty="33" Level="CriticalError" Path="D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form" File="OpenGL3.h" Line="483">'COpenGL3.WndProc(ref Message)' calls into 'NativeWindow.WndProc(ref Message)' which has a LinkDemand. By making this call, 'NativeWindow.WndProc(ref Message)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'COpenGL3.WndProc(ref Message)'&#xD;&#xA;   -&gt;'COpenGL3.WndProc(ref Message)'</Issue>
+            </Message>
+            <Message TypeName="OverrideLinkDemandsShouldBeIdenticalToBase" Category="Microsoft.Security" CheckId="CA2123" Status="Active" Created="2020-12-23 09:14:59Z" FixCategory="Breaking">
+             <Issue Name="BaseOnly" Certainty="33" Level="CriticalError" Path="D:\MyDocs\CWU\Winter 2021\Grad Research\InteractiveSPC_Rev20\OpenGL_on_a_Windows_Form" File="OpenGL3.h" Line="483">Add the following security attribute to 'COpenGL3.WndProc(ref Message)' in order to match a LinkDemand on base method 'NativeWindow.WndProc(ref Message)':  [SecurityPermission(SecurityAction.LinkDemand, Flags = SecurityPermissionFlag.UnmanagedCode)].</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213">
+   <Name>Disposable fields should be disposed</Name>
+   <Description>If a type that implements IDisposable owns fields that also implement IDisposable, the encapsulating type's Dispose() implementation should call Dispose() on each disposable field.</Description>
+   <Resolution Name="Default">{0} contains field {1} that is of IDisposable type: {2}. Change the Dispose method on {0} to call Dispose or Close on this field.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182328.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214">
+   <Name>Do not call overridable methods in constructors</Name>
+   <Description>Virtual methods defined on the class should not be called from constructors. If a derived class has overridden the method, the derived class version will be called (before the derived class constructor is called).</Description>
+   <Resolution Name="Default">{0} contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: {1}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182331.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="usagerules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122">
+   <Name>Do not indirectly expose methods with link demands</Name>
+   <Description>Do not wrap a method protected by a LinkDemand with a method that does not perform a security check. A LinkDemand checks the permissions of the immediate caller rather than checking the permissions of all callers in the call stack. In this case, the permissions of the wrapper method will be checked. If the wrapper method does not, itself, check the permissions of callers higher in the call stack, malicious code might be able to execute the wrapped function even though it lacks permission to do so.</Description>
+   <Resolution Name="Default">{0} calls into {1} which has a LinkDemand. By making this call, {1} is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: {2}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182303.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="33">CriticalError</MessageLevel>
+   <File Name="securityrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="OverrideLinkDemandsShouldBeIdenticalToBase" Category="Microsoft.Security" CheckId="CA2123">
+   <Name>Override link demands should be identical to base</Name>
+   <Description>If a virtual method has a LinkDemand, in many cases, so should any override of it, and if an override has a LinkDemand, so should the overridden virtual method. Because it is possible to call any of the overrides of a virtual method explicitly, they should all have the same LinkDemand status or, if not, should be reviewed. This also applies to LinkDemand security checks for methods that part of an interface implementation, because the caller might use an interface-typed reference to access the method.</Description>
+   <Resolution Name="BaseOnly">Add the following security attribute to {0} in order to match a LinkDemand on base method {1}:  {2}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182305(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="33">CriticalError</MessageLevel>
+   <File Name="securitytransparencyrules.dll" Version="4.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

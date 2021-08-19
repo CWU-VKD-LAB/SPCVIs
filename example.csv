@@ -1,0 +1,14 @@
+Entry,Temperature,Pressure,Class
+1,1,5,1
+2,2,6,1
+3,4,1,1
+4,N/A,9,1
+5,not measured,?(unknown reason),1
+6,3,N/A,1
+7,4,6,1
+8,error of measurement,recorded elsewhere,1
+9,5,not measured,1
+10,measured but not recorded,2,1
+11,1,7,1
+12,2,error of measurement,1
+13,recorded elsewhere,N/A,1

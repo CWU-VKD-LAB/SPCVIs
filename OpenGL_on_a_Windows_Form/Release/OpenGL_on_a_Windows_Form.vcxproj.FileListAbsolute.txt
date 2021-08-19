@@ -1,0 +1,8 @@
+C:\Users\shisslers\source\repos\InteractiveSPC_Rev21a\OpenGL_on_a_Windows_Form\Release\OpenGL_on_a_Windows_Form.vcxproj.AssemblyReference.cache
+C:\Users\shisslers\source\repos\InteractiveSPC_Rev21a\OpenGL_on_a_Windows_Form\Release\OpenGL_on_a_Windows_Form.Form1.resources
+C:\Users\shisslers\source\repos\InteractiveSPC_Rev21a\OpenGL_on_a_Windows_Form\Release\OpenGL_on_a_Windows_Form.vcxproj.GenerateResource.cache
+C:\Users\shisslers\source\repos\InteractiveSPC_Rev21a - Copy\OpenGL_on_a_Windows_Form\Release\OpenGL_on_a_Windows_Form.Form1.resources
+C:\Users\shisslers\source\repos\InteractiveSPC_Rev21a - Copy\OpenGL_on_a_Windows_Form\Release\OpenGL_on_a_Windows_Form.vcxproj.GenerateResource.cache
+C:\Users\shisslers\Documents\GitHub\SPCVis\OpenGL_on_a_Windows_Form\Release\OpenGL_on_a_Windows_Form.vcxproj.AssemblyReference.cache
+C:\Users\shisslers\Documents\GitHub\SPCVis\OpenGL_on_a_Windows_Form\Release\OpenGL_on_a_Windows_Form.Form1.resources
+C:\Users\shisslers\Documents\GitHub\SPCVis\OpenGL_on_a_Windows_Form\Release\OpenGL_on_a_Windows_Form.vcxproj.GenerateResource.cache
